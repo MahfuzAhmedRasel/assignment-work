@@ -2,10 +2,46 @@ body{
     margin: 0;
     font-family: 'Roboto Condensed', sans-serif;
 }
+body p{
+    color: dimgray;
+}
 section{
     height: 500px;
     padding: 50px;
 }
+
+.manu-part{
+    height: 100px;
+    width: 32%;
+    padding: 50px;
+    float: right;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover{
+      color: tomato;
+  }
+
+
+
+
+
+
 
 h2{
     font-size: 40px;
@@ -102,4 +138,44 @@ h2{
 .btn-chat a {
     text-transform: capitalize;
     font-weight: 400;
+}
+.contact{
+    background-image:url(images/Group_33094_1.png);
+    background-position: center;
+    background-repeat:no-repeat;
+}
+.contact h3{
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+.contact-text{
+    padding: 50px;
+}
+.contact-text .input-text{
+    width: 100%;
+    padding: 5px;
+    margin: 10px;
+    border: 0;
+    border-radius: 5px;
+    color: black;
+}
+.sent-btn{
+    width: 100%;
+    border: none;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    background-image: linear-gradient(45deg, rgb(255, 0, 0), rgba(255, 187, 0, 0.938));
+    border-radius: 5px;
+    font-weight: 700;
+    text-transform: uppercase; 
+    color: white;
+}
+
+footer{
+    padding: 10px;
+}
+footer p{
+    text-align: center;
 }
