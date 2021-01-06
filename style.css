@@ -16,31 +16,26 @@ section{
     padding: 50px;
     float: right;
 }
-ul {
+.manu-part ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
   }
   
-li {
+.manu-part ul li {
     float: left;
   }
   
-  li a {
+.manu-part ul  li a {
     display: block;
     text-align: right;
     padding: 14px 16px;
     text-decoration: none;
   }
-  li a:hover{
+  .manu-part ul  li a:hover{
       color: tomato;
   }
-
-
-
-
-
 
 
 h2{
